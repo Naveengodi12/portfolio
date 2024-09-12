@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Devaraj Portfolio Website Design</title>
+
+    <!-- swiper css -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+
+    <!-- box icons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    <!-- custom css -->
+    <link rel="stylesheet" href="css/style.css">
+    <title>Tailwind CSS Example</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+
+</head>
+
+<body>
+
+    <!-- header design -->
+    <header class="header">
+        <a href="#" class="logo">Portfolio.</a>
+
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            
+            <a href="#services">Projects</a>
+           <a href="#model">Modelling and animation</a>
+            <a href="#contact">Contact</a>
+            
+        </nav>
+
+        <div class="bx bx-moon" id="darkMode-icon"></div>
+
+        <div class="bx bx-menu" id="menu-icon"></div>
+    </header>
+
+    <!-- home section design -->
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hello, I am</h3>
+            <h1>Devaraj Godi</h1>
+            <p>
+                I am an Unreal Engine Generalist passionate about creating immersive,
+                 visually stunning environments. With expertise in 3D art and real-time rendering, 
+                I focus on delivering high-quality, engaging experiences.
+            </p>
+            <!--<p>Currently I'm a student of The Jump Digital School, where I'm learning how to
+            create beautiful and functional websites using HTML, CSS, JavaScript, and WordPress.</p>-->
+
+            <div class="social-media">
+              
+                <a href="https://www.youtube.com/@ArtWorks-h6p"><i class="bi bi-youtube"></i></i></a>
+                <a href="https://www.artstation.com/devarajgodi8">  <img src="images/art.jpeg" alt="ArtStation Logo" style="width: 150px; height: auto; border: 2px solid #000;"></a>
+                <a href="https://www.linkedin.com/in/devaraj-godi-161b56170"><i class="bi bi-linkedin"></i></a>
+            </div>
+
+            <a href="#" class="btn">Download CV</a>
+        </div>
+
+        <div class="profession-container">
+            <div class="profession-box">
+                <div class="profession" style="--i:0;">
+                   <!-- <i class='bx bx-code-alt'></i> -->
+                    <h3>Unreal Engine Artist</h3>
+                </div>
+                <div class="profession" style="--i:1;">
+                    <!--<i class='bx bx-camera'></i>-->
+                    <h3>Unreal Engine Artist</h3>
+                </div>
+                <div class="profession" style="--i:2;">
+                    <!--<i class='bx bx-palette'></i>-->
+                    <h3>Unreal Engine Artist</h3>
+                </div>
+                <div class="profession" style="--i:3;">
+                    <!--<i class='bx bx-video-recording'></i>-->
+                    <h3>Unreal Engine Artist</h3>
+                </div>
+
+                <div class="circle"></div>
+            </div>
+
+            <div class="overlay"></div>
+        </div>
+
+        <div class="home-img">
+            <img src="images/home.png" alt="">
+        </div>
+    </section>
+
+    <!-- about section design -->
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="images/about.png" alt="">
+        </div>
+
+        <div class="about-content">
+            <h2 class="heading">About <span>Me</span></h2>
+            <h3>
+                I am an Unreal Engine Generalist with over 3years of 
+                experience in creating immersive 3D environments and interactive simulations.
+            </h3>
+            <p>
+                My expertise lies in real-time rendering, 3D modeling, and environment design, using tools like Maya, 
+                Substance Painter, Photoshop, and Clo3D. I focus on optimizing performance
+                 and delivering high-quality visuals for various projects.
+            </p>
+            <p>
+                Recently, I completed an AR/VR course, expanding my skill set and exploring
+                 new dimensions of interactive technology. 
+                I am passionate about pushing creative boundaries and developing engaging experiences in Unreal Engine.
+            </p>
+            <!--<a href="#" class="btn">Read More</a>-->
+        </div>
+    </section>
+
+    <!-- services section design -->
+    <section class="services" id="services">
+        <h2 class="heading">Architecture <span>Visualization</span></h2>
+
+        <div class="services-container">
+            <div class="services-box">
+                <!--<i class='bx bx-code-alt'></i> -->
+                <video class="h-full  max-h-100 max-w-50" autoplay muted controls>
+                    <source src="/videos/ab.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                  </video>
+            </div>
+            <div class="services-box">
+                <!--<i class='bx bxs-paint'></i>-->
+                <video class="h-full  max-h-100 max-w-50" autoplay muted controls>
+                    <source src="/videos/abc.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                  </video>
+            </div>
+            </div>
+        </section>
+    <section class="services" id="services">
+        <h2 class="heading">Environment <span>Projects</span></h2>
+
+        <div class="services-container">
+            <div class="services-box">
+                <!--<i class='bx bx-code-alt'></i> -->
+                <video controls autoplay muted loop src="videos/e1.mp4" width="500" height="300" alt="">
+            </div>
+            <div class="services-box">
+                <!--<i class='bx bxs-paint'></i>-->
+                <video controls autoplay muted loop src="videos/e2.mp4" width="500" height="300" alt="">
+            </div>
+             <div class="services-box">
+                <!--<i class='bx bxs-paint'></i>-->
+                <video controls autoplay muted loop src="videos/e3.mp4" width="500" height="300" alt="">
+            </div>
+            <div class="services-box">
+            <!--<i class='bx bxs-paint'></i>-->
+            <video controls autoplay muted loop src="videos/e4.mp4" width="500" height="300" alt="">
+            </div>
+        <div class="services-box">
+        <!--<i class='bx bxs-paint'></i>-->
+        <video controls autoplay muted loop src="videos/e5.mp4" width="500" height="300" alt="">
+    </div>
+            <!--<div class="services-box">
+                <i class='bx bx-bar-chart-alt'></i>
+                <h3>Digital Marketing</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Excepturi itaque similique, architecto
+                    eaque ut quas delectus pariatur nesciunt in eligendi mollitia dicta.</p>
+                <a href="#" class="btn">Read More</a>
+            </div>-->
+        </div>
+    </section> 
+    <section class="services" id="services">
+        <h2 class="heading">Level <span>Designs</span></h2>
+
+        <div class="services-container">
+            <div class="services-box">
+                <!--<i class='bx bx-code-alt'></i> -->
+                <video controls autoplay muted loop src="videos/l1.mp4" width="500" height="300" alt="">
+            </div>
+            <div class="services-box">
+                <!--<i class='bx bxs-paint'></i>-->
+                <video controls autoplay muted loop src="videos/l2.mp4" width="500" height="300" alt="">
+            </div>
+             <div class="services-box">
+                <!--<i class='bx bxs-paint'></i>-->
+                <video controls autoplay muted loop src="videos/l3.mp4" width="500" height="300" alt="">
+            </div>
+            <div class="services-box">
+            <!--<i class='bx bxs-paint'></i>-->
+            <video controls autoplay muted loop src="videos/l4.mp4" width="500" height="300" alt="">
+        </div>
+    </section>
+        <section class="services" id="services">
+            <h2 class="heading">Virtual <span>Reality</span></h2>
+    
+            <div class="services-container">
+                <div class="services-box">
+                    <!--<i class='bx bx-code-alt'></i> -->
+                    <video controls autoplay muted loop src="videos/vr1.mp4" width="500" height="300" alt="">
+                </div>
+        
+            <!--<div class="services-box">
+                <i class='bx bx-bar-chart-alt'></i>
+                <h3>Digital Marketing</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Excepturi itaque similique, architecto
+                    eaque ut quas delectus pariatur nesciunt in eligendi mollitia dicta.</p>
+                <a href="#" class="btn">Read More</a>
+            </div>-->
+            </div>
+        </section> 
+
+    <!-- portfolio section design -->
+   <!-- <section class="portfolio" id="portfolio">
+        <h2 class="heading">Modelling<span>Box Images</span></h2>>-->
+
+   
+      
+
+    
+
+        <section class="model" id="model">
+            <hr class="h-px my-8 bg-gray-200 border-0 dark:bg-gray-700">   
+            <h1 class="text-8xl font-extrabold dark:text-white">Shoals Box<small class="ms-2 font-semibold text-gray-500 dark:text-gray-400"></small></h1>
+        <hr class="h-px my-8 bg-gray-200 border-0 dark:bg-gray-700">
+        <div class="grid grid-cols-2 md:grid-cols-3 gap-4">
+            
+            <div>
+                <img class="h-full  max-h-50 max-w-100 rounded-lg" src="images/Box/01.jpg" alt="">
+            </div>
+            <div>
+                <img class="h-full  max-h-50max-w-100 rounded-lg" src="images/Box/02.jpg" alt="">
+            </div>
+            <div>
+                <img class="h-full  max-h-50 max-w-100 rounded-lg" src="images/Box/03.png" alt="">
+            </div>
+            
+        </div>
+    </div>
+    <hr class="h-px my-8 bg-gray-200 border-0 dark:bg-gray-700">
+    <h1 class="text-8xl font-extrabold dark:text-white">Cloths<small class="ms-2 font-semibold text-gray-500 dark:text-gray-400"></small></h1>
+    <hr class="h-px my-8 bg-gray-200 border-0 dark:bg-gray-700">
+    <div class="grid grid-cols-2 md:grid-cols-3 gap-4">
+        <div>
+            <img class="h-full  max-h-50 max-w-120  rounded-lg" src="images/Cloth/1.jpg" alt="">
+        </div>
+        <div>
+            <img class="h-full  max-h-50 max-w-120 rounded-lg" src="images/Cloth/2.jfif" alt="">
+        </div>
+        <div>
+            <img class="h-full  max-h-50 max-w-120 rounded-lg" src="images/Cloth/3.jfif" alt="">
+        </div>
+        <div>
+            <img class="h-full  max-h-50max-w-100 rounded-lg" src="images/Cloth/4.jfif" alt="">
+        </div>
+       
+        <div>
+            <img class="h-full  max-h-50 max-w-100 min-w-100 rounded-lg" src="images/Cloth/5.jfif" alt="">
+        </div>
+        <div>
+            <img class="h-full  max-h-50 max-w-100 rounded-lg" src="images/Cloth/6.jfif" alt="">
+        </div>
+        <div>
+            <img class="h-full  max-h-50 max-w-100 rounded-lg" src="images/Cloth/7.jfif" alt="">
+        </div>
+        <div>
+            <img class="h-full  max-h-50 max-w-100 rounded-lg" src="images/Cloth/8.jfif" alt="">
+        </div>
+        <div>
+            <img class="h-full  max-h-50 max-w-100 rounded-lg" src="images/Cloth/9.jfif" alt="">
+        </div>
+    </div>
+    <hr class="h-px my-8 bg-gray-200 border-0 dark:bg-gray-700">
+    <h1 class="text-8xl font-extrabold dark:text-white">Honda Building<small class="ms-2 font-semibold text-gray-500 dark:text-gray-400"></small></h1>
+    <hr class="h-px my-8 bg-gray-200 border-0 dark:bg-gray-700">
+<div class="grid grid-cols-2 md:grid-cols-3 gap-4">
+    <div >
+        <img class="h-full  max-h-50 max-w-100 rounded-lg" src="images/Honda Building/01.png" alt="">
+    </div>
+    <div>
+        <img class="h-full  max-h-50 max-w-100 rounded-lg" src="images/Honda Building/02.png" alt="">
+    </div>
+    <div>
+        <img class="h-full  max-h-50 max-w-100 rounded-lg" src="images/Honda Building/03.png" alt="">
+    </div>
+    <div>
+        <img class="h-full  max-h-50 max-w-100 rounded-lg" src="images/Honda Building/04.png" alt="">
+    </div>
+    <div>
+        <img class="h-full  max-h-50 max-w-100 rounded-lg" src="images/Honda Building/05.jfif" alt="">
+    </div>
+    <div>
+        <img class="h-full  max-h-50 max-w-100 rounded-lg" src="images/Honda Building/06.jfif" alt="">
+    </div>
+</div>
+<hr class="h-px my-8 bg-gray-200 border-0 dark:bg-gray-700">
+<h1 class="text-8xl font-extrabold dark:text-white">Jeep<small class="ms-2 font-semibold text-gray-500 dark:text-gray-400"></small></h1>
+<hr class="h-px my-8 bg-gray-200 border-0 dark:bg-gray-700">
+   <div class="grid grid-cols-2 md:grid-cols-3 gap-4">
+    <div>
+        <img class="h-full  max-h-50 max-w-100 rounded-lg" src="images/jEEP/1.jfif" alt="">
+    </div>
+    <div>
+        <img class="h-full  max-h-50 max-w-100 rounded-lg" src="images/jEEP/2.jfif" alt="">
+    </div>
+    <div>
+        <img class="h-full  max-h-50 max-w-100 rounded-lg" src="images/jEEP/3.jfif" alt="">
+    </div>
+    <div>
+        <img class="h-full  max-h-50 max-w-100 rounded-lg" src="images/jEEP/4.jfif" alt="">
+    </div>
+    <div>
+        <img class="h-full  max-h-50 max-w-100 rounded-lg" src="images/jEEP/5.jfif" alt="">
+    </div>
+    <div>
+        <img class="h-full  max-h-50 max-w-100 rounded-lg" src="images/jEEP/6.jfif" alt="">
+    </div>
+   </div>
+   
+</div>
+        
+<hr class="h-px my-8 bg-gray-200 border-0 dark:bg-gray-700"> 
+<h1 class="text-8xl font-extrabold dark:text-white">Animations<small class="ms-2 font-semibold text-gray-500 dark:text-gray-400"></small></h1>
+<hr class="h-px my-8 bg-gray-200 border-0 dark:bg-gray-700">
+<div  class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+    <div>
+   
+        <video class="h-full  max-h-100 max-w-50" autoplay muted controls>
+            <source src="/videos/m1.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+          
+        </div>
+        <div>
+            
+            <video class="h-full  max-h-100 max-w-50" autoplay muted controls>
+                <source src="/videos/m2.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+              </video>
+              
+            </div>
+            <div>
+            
+               <video class="h-full  max-h-100 max-w-50" autoplay muted controls>
+                    <source src="/videos/m2.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                  </video>
+                  
+             </div>
+                <div>
+            
+                    <video class="h-full  max-h-100 max-w-50" autoplay muted controls>
+                        <source src="/videos/m2.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                      </video>
+                      
+                </div>
+</div> 
+        </section>
+
+
+
+
+      
+
+     <!--testimonial design -->
+    <!--<div class="testimonial-container">
+        <h2 class="heading">Valuable <span>Testimonial</span></h2>
+
+        <div class="testimonial-wrapper">
+            <div class="testimonial-box mySwiper">
+                <div class="testimonial-content swiper-wrapper">
+                    <div class="testimonial-slide swiper-slide">
+                        <img src="images/testimonial1.jpg" alt="">
+                        <h3>Jackson Levi</h3>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Exercitationem dignissimos aliquid
+                            iure delectus corrupti impedit, beatae aperiam ad iusto nostrum possimus cum pariatur harum
+                            assumenda suscipit a, qui, tempora maxime nulla facere quo ipsum tempore. Atque libero
+                            provident ad aut officia pariatur voluptate quaerat delectus nesciunt, sequi eligendi
+                            aperiam fugit unde nihil, iste similique illum. Dignissimos enim officia consequuntur
+                            dolores.</p>
+                    </div>
+                    <div class="testimonial-slide swiper-slide">
+                        <img src="images/testimonial2.jpg" alt="">
+                        <h3>Flora Ocean</h3>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Exercitationem dignissimos aliquid
+                            iure delectus corrupti impedit, beatae aperiam ad iusto nostrum possimus cum pariatur harum
+                            assumenda suscipit a, qui, tempora maxime nulla facere quo ipsum tempore. Atque libero
+                            provident ad aut officia pariatur voluptate quaerat delectus nesciunt, sequi eligendi
+                            aperiam fugit unde nihil, iste similique illum. Dignissimos enim officia consequuntur
+                            dolores.</p>
+                    </div>
+                    <div class="testimonial-slide swiper-slide">
+                        <img src="images/testimonial3.jpg" alt="">
+                        <h3>Julian Grayson</h3>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Exercitationem dignissimos aliquid
+                            iure delectus corrupti impedit, beatae aperiam ad iusto nostrum possimus cum pariatur harum
+                            assumenda suscipit a, qui, tempora maxime nulla facere quo ipsum tempore. Atque libero
+                            provident ad aut officia pariatur voluptate quaerat delectus nesciunt, sequi eligendi
+                            aperiam fugit unde nihil, iste similique illum. Dignissimos enim officia consequuntur
+                            dolores.</p>
+                    </div>
+                </div>
+
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+    </div> -->
+    
+    <!-- contact section design -->
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me!</span></h2>
+
+        <form action="mailto:devurajsgodi@gmail.com">
+            <div class="input-box">
+                <input type="text" placeholder="Full Name">
+                <input type="email" placeholder="Email Address">
+            </div>
+            <div class="input-box">
+                <input type="number" placeholder="Mobile Number">
+                <input type="text" placeholder="Email Subject">
+            </div>
+            <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+            <input type="submit" value="Send Message" class="btn">
+        </form>
+    </section>
+
+    <!-- footer design -->
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy; 2024 | All Rights Reserved.</p>
+        </div>
+
+        <div class="footer-iconTop">
+            <a href="#home"><i class='bx bx-up-arrow-alt'></i></a>
+        </div>
+    </footer>
+
+
+    <!-- scroll reveal -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- swiper js -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+    <!-- custom js -->
+    <script src="js/script.js"></script>
+</body>
+
+</html>
